@@ -1,0 +1,12 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+<h1> All Posts </h1>
+
+<div id="compose-posts">Posts to show</div>
+{% endblock %}
+
+{% block script %}
+			<script src="{% static 'network/customizing_posts.js' %}"></script>
+{% endblock %}

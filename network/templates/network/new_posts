@@ -1,0 +1,20 @@
+{% extends "network/layout.html" %}
+{% block body %}
+	<h1>All Posts</h1>
+	
+	
+	
+
+{% endblock %}
+
+<div id="compose-view">
+        <h3>New Post</h3>
+        <form id="compose-form" action="{ url 'network/register.html'}" method="post" enctype="multipart/form-data">{% csrf_token %}
+			<input type="text" value="my_input">
+            <input type="submit" value="create">
+        </form>
+    </div>
+
+{% block script %}
+
+{% endblock %}

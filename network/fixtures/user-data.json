@@ -1,0 +1,10 @@
+[
+	{"model": "network.User",
+    "pk": 1,
+    "fields":
+	  {
+		"username": "pflege",
+		"password": "511kefka!511"
+		}
+	}
+]

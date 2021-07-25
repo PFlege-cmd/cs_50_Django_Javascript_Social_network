@@ -1,0 +1,33 @@
+{% extends "network/layout.html" %}
+{% load static %}
+{% block body %}
+
+<div id="compose-view">
+	{% if user.is_authenticated %}
+        <h3>New Post</h3>
+		
+		<!--
+        <form id="compose-form" action="{% url 'new_posts' %}" method="post" enctype="multipart/form-data">{% csrf_token %}
+		
+			{{postform.as_p}}
+            <input id="btn-submit" type="submit" value="create">
+        </form>
+		-->
+		<div class="form-group">
+			<form id="compose-form" >
+				<div class="form-group">
+					{{postform.as_p}}
+				</div>
+				<input id="btn-submit" class="btn btn-primary" type="submit" value="create">
+			</form>
+		<div>
+	{% else %}
+		<h3>Forbidden</h3>
+	{% endif %}
+    </div>
+	
+	{% endblock %}
+
+{% block script %}
+	<script src="{% static 'network/customizing.js' %}"></script>
+{% endblock %}
