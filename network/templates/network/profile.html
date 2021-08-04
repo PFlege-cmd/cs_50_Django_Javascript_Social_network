@@ -2,11 +2,21 @@
 {% load static %}
 
 {% block body %}
-<h1>{{ user.username }}</h1>
+<h1>{{ displayed_user.username }}</h1>
 
-<div id="compose-posts">To do</div>
+<div id="user-info">
+	<div id="follows" class="follower-info"> follows: {{follows}}</div>
+	<div id="following" class="follower-info"> followed by: {{following}}
+		{% if displayed_user.username == user.username %}
+		<button id="follow-btn" disabled="true">Follow</button>
+		{% else %}
+		<button id="follow-btn" >Follow</button>
+		{% endif %}
+		<button id="unfollow-btn">Unfollow</button>
+	</div>
+</div>
 {% endblock %}
 
 {% block script %}
-			
+	<script src="{% static 'network/customizing_users.js' %}"></script>
 {% endblock %}

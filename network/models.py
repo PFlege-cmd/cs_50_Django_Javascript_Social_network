@@ -5,9 +5,22 @@ from django.utils import timezone
 
 
 class User(AbstractUser):
+
+    followers = models.ManyToManyField('User',symmetrical = False, related_name="followed_by");
+    follows = models.ManyToManyField('User', symmetrical = False);
     
     def __str__(self):
         return f"{self.username}";
+        
+    def addFollower(self, user):
+        self.follows.add(user);
+        self.save();
+        user.followers.add(self);
+        user.save();
+        
+    
+
+        
     
 class Post(models.Model):
     content = models.TextField(max_length = 300);

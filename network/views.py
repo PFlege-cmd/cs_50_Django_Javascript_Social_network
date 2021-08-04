@@ -76,10 +76,10 @@ def new_posts(request):
         });
      
     elif request.method == "POST":
-        print(request.POST);
+        #print(request.POST);
         json_object = json.loads(request.body);
         json_object["author"] = request.user;
-        print(json_object);
+        #print(json_object);
         post_to_save = Post(author = json_object["author"], content = json_object["content"])
         post_to_save.save();
         return JsonResponse(post_to_save.serialize())
@@ -94,32 +94,112 @@ def new_posts(request):
 @csrf_exempt
 @login_required   
 def posts(request):
+    # can return either all posts, if no additional query paramters are given, or only those of followed people
+    # For the latter option, add the 'followers' query-parameter
+
+    if request.method == "GET" and "followers" in request.GET and request.GET["followers"]:
+        posts_of_users_followed = Post.objects.filter(author__in = request.user.follows.all());
+        
+        print(posts_of_users_followed)
+        return returnPosts(request, posts_of_users_followed)
+
     if request.method == "GET":
         posts = Post.objects.all();
-        post_list = [];
-        
-        print("Get start is: " + request.GET.get("start",0));
-        print("Get end is: " + request.GET.get("end",5));
         
         
+        return returnPosts(request, posts);
         
-        
-        for i in range(int(request.GET.get("start",0)), int(request.GET.get("end", 5))):
-            post_list.append(posts[i].serialize());
-            
-        print(post_list);
-        
-        time.sleep(0.5);
-        
-        
-        return JsonResponse(post_list, safe=False);
     
 @csrf_exempt
 @login_required    
 def all_posts(request):
     
         return render(request, "network/all_posts.html");
+        
+@csrf_exempt
+@login_required
+def profile(request, other_user_name):
+    if request.method == "GET":
 
-def profile(request):
+        displayed_user = User.objects.get(username=other_user_name);
 
-    return render(request, "network/profile.html");
+        followed_users = displayed_user.follows.all();
+        following_users = displayed_user.followers.all();
+
+        return render(request, "network/profile.html", {
+            "displayed_user" : displayed_user,
+            "follows" : str(len(followed_users)),
+            "following" : str(len(following_users))
+        });
+    
+    elif request.method == "PUT":
+        added_user = json.loads(request.body);
+        #print(added_user["follow"]);
+        #print("Should I unfollow?: " + str(added_user["unfollow"]));
+        
+        
+        if not added_user["unfollow"]:
+            if added_user["follow"] == request.user.username:
+                return HttpResponse(status=400);
+            
+            else: 
+                user_to_follow = User.objects.get(username=added_user["follow"])
+                request.user.addFollower(user_to_follow);
+                request.user.save();
+                return HttpResponse(status=200);
+                
+        else: 
+            user_to_stop_following = User.objects.get(username=added_user["follow"])
+            if user_to_stop_following in request.user.follows.all():
+                #print("Is good!");
+                request.user.follows.remove(user_to_stop_following);
+                user_to_stop_following.followers.remove(request.user);
+                user_to_stop_following.save();
+                return HttpResponse(status=200);
+            else: 
+                return HttpResponse(status=404);
+            
+def returnPosts(request, posts):
+    post_list = [];
+        
+    #print("Get start is: " + request.GET.get("start","0"));
+    #print("Get end is: " + request.GET.get("end","5"));
+
+        
+    if int(request.GET.get("end", 5)) <= len(posts):
+        
+        for i in range(int(request.GET.get("start",0)), int(request.GET.get("end", 5))):
+            post_list.append(posts[i].serialize());
+                
+            
+            
+        time.sleep(0.5);
+    else:
+        remaining_in_database = len(posts) - int(request.GET.get("start", 0));
+        for i in range(int(request.GET.get("start",0)), int(request.GET.get("start",0)) + remaining_in_database):
+            post_list.append(posts[i].serialize());
+                
+       # print(post_list);
+            
+        time.sleep(0.5);
+        
+        
+    return JsonResponse(post_list, safe=False);
+
+
+    
+def profile_posts(request, other_user_name):
+    if request.method == "GET":
+        #print(other_user_name);
+        posts = Post.objects.all().filter(author=User.objects.get(username=other_user_name).id);
+        return returnPosts(request, posts);
+    else:
+        return JsonResponse({"error":"error"})
+
+@csrf_exempt
+@login_required
+def following(request):
+    followed = [];
+    
+    return render(request, "network/following.html");
+        

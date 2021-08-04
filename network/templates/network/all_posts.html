@@ -4,6 +4,7 @@
 {% block body %}
 <h1> All Posts </h1>
 
+{{ user.username|json_script:"user_name" }}
 <div id="compose-posts">Posts to show</div>
 {% endblock %}
 

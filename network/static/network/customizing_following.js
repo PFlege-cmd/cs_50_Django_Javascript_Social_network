@@ -1,34 +1,33 @@
 document.addEventListener('DOMContentLoaded', function() {
 	
-	console.log(document.querySelector("#user_name").textContent);
 	
-	// Continue here tomorrow! Above is the solution!
+	var displayed_user_name = document.querySelector("h1").textContent.toString();
+	
 	let start = 0;
 	let difference = 5;
 	
-	get_some_posts(start, start+difference);
+	get_some_posts(start, start+6, displayed_user_name);
 	
 	start = start + difference;
 	
 	window.onscroll = () => {
 			if (window.scrollY + window.innerHeight >= document.body.offsetHeight){
-			get_some_posts(start, start+difference)
+			get_some_posts(start, start+difference, displayed_user_name)
 			start = start + difference ;
 		} 
 	}
-
 	
-
+			
 });
 
 const get_some_posts = function(start, end){
 	
 	
-	fetch(`/posts?start=${start}&end=${end}#`)
+	fetch(`/posts?start=${start}&end=${end}&followers=True#`)
 	.then(r => r.json())
 	.then(posts => {
 		posts.forEach( post => {
-			document.querySelector("#compose-posts").append(create_a_post_div(post));
+			document.querySelector("#following-info").append(create_a_post_div(post));
 		})
 		}).catch(error => {
 		console.log(error);

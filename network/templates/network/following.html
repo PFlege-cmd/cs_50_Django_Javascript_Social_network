@@ -1,0 +1,15 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+<h1>{{ displayed_user.username }}</h1>
+
+<div id="following-info">
+	<div id="following" class="following-info"> followingposts</div>
+	
+</div>
+{% endblock %}
+
+{% block script %}
+	<script src="{% static 'network/customizing_following.js' %}"></script>
+{% endblock %}
