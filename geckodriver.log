@@ -1545,3 +1545,555 @@ JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: 
 1628095048724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofile05u8lL"
 1628095049232	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofile05u8lL\\search.json.mozlz4", (void 0)))
+1628095052958	Marionette	INFO	Listening on port 51193
+1628095053059	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628095069357	Marionette	INFO	Stopped listening on port 51193
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628095109784	geckodriver	INFO	Listening on 127.0.0.1:58353
+1628095112802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileR4cYNT"
+1628095113328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileR4cYNT\\search.json.mozlz4", (void 0)))
+1628095116322	Marionette	INFO	Listening on port 61851
+1628095116513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628095196667	Marionette	INFO	Stopped listening on port 61851
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628095274004	geckodriver	INFO	Listening on 127.0.0.1:49953
+1628095277021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileP2W3HD"
+1628095277565	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileP2W3HD\\search.json.mozlz4", (void 0)))
+1628095281176	Marionette	INFO	Listening on port 60637
+1628095281236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390158,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+tic/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628097967000	Marionette	INFO	Stopped listening on port 49489
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628097966343	Marionette	INFO	Stopped listening on port 56875
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628097965407	Marionette	INFO	Stopped listening on port 53301
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628173419597	geckodriver	INFO	Listening on 127.0.0.1:60180
+1628173422631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileF965F1"
+1628173423466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileF965F1\\search.json.mozlz4", (void 0)))
+1628173426660	Marionette	INFO	Listening on port 60188
+1628173426840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176955627	Marionette	INFO	Stopped listening on port 60188
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofile57nYjo\\search.json.mozlz4", (void 0)))
+1628173852767	Marionette	INFO	Listening on port 53077
+1628173853092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: "Error while calling actor 'domwalker's method 'innerHTML'" "this.str is undefined"
+console.error: (new TypeError("this.str is undefined", "resource://devtools/server/actors/string.js", 16))
+console.error: (new Error("Protocol error (TypeError): this.str is undefined from: server0.conn0.child4/domwalker24 (resource://devtools/server/actors/string.js:16:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/client/shared/sourceeditor/editor.js, line 639: TypeError: right-hand side of 'in' should be an object, got undefined
+1628176953353	Marionette	INFO	Stopped listening on port 53077
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+zing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953130	Marionette	INFO	Stopped listening on port 63537
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176954819	Marionette	INFO	Stopped listening on port 52418
+00/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953310	Marionette	INFO	Stopped listening on port 54996
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176954744	Marionette	INFO	Stopped listening on port 60201
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953491	Marionette	INFO	Stopped listening on port 65429
+00/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176954897	Marionette	INFO	Stopped listening on port 53922
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953279	Marionette	INFO	Stopped listening on port 56755
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176955297	Marionette	INFO	Stopped listening on port 55933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953423	Marionette	INFO	Stopped listening on port 51605
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953419	Marionette	INFO	Stopped listening on port 52657
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176955475	Marionette	INFO	Stopped listening on port 55552
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953474	Marionette	INFO	Stopped listening on port 55605
+00/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953387	Marionette	INFO	Stopped listening on port 55926
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofile3YFLia\\search.json.mozlz4", (void 0)))
+1628176080531	Marionette	INFO	Listening on port 60496
+1628176080579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953346	Marionette	INFO	Stopped listening on port 60496
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176955331	Marionette	INFO	Stopped listening on port 53791
+00/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628176953510	Marionette	INFO	Stopped listening on port 58599
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1628176955310	Marionette	INFO	Stopped listening on port 63584
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628176953293	Marionette	INFO	Stopped listening on port 58455
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofilegGHN8P"
+1628176639073	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofilegGHN8P\\search.json.mozlz4", (void 0)))
+1628176642188	Marionette	INFO	Listening on port 58524
+1628176642238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628176954838	Marionette	INFO	Stopped listening on port 58524
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileGNb6I2"
+1628176820154	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileGNb6I2\\search.json.mozlz4", (void 0)))
+1628176823681	Marionette	INFO	Listening on port 60846
+1628176823837	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628176953318	Marionette	INFO	Stopped listening on port 60846
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628176957651	geckodriver	INFO	Listening on 127.0.0.1:58094
+1628176960700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofilebOP3de"
+1628176961379	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofilebOP3de\\search.json.mozlz4", (void 0)))
+1628176964812	Marionette	INFO	Listening on port 58102
+1628176964921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://127.0.0.1:8000/static/network/customizing_posts.js, line 66: SyntaxError: missing ) after formal parameters
+JavaScript error: http://127.0.0.1:8000/static/network/customizing_posts.js, line 69: SyntaxError: identifier starts immediately after numeric literal
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new Error("Protocol error (noSuchActor): No such actor for ID: server0.conn2.child4/domnode350 from: server0.conn2.child4/domnode350", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing_posts.js, line 73: SyntaxError: invalid assignment left-hand side
+console.error: "stylesheets: fetch failed for https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CS1628181940868	Marionette	INFO	Stopped listening on port 51551
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+server/actors/style-rule.js", 157))
+console.error: (new TypeError("container.editor is undefined", "resource://devtools/client/inspector/markup/markup.js", 1619))
+1628181218312	Marionette	INFO	Stopped listening on port 58102
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ta was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628181957350	Marionette	INFO	Stopped listening on port 49571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileXovYLT\\search.json.mozlz4", (void 0)))
+1628177514604	Marionette	INFO	Listening on port 56961
+1628177514962	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+1628177545656	Marionette	INFO	Stopped listening on port 56961628177547275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileOoFiQj"
+1628177547841	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pfleg\\AppData\\Local\\Temp\\rust_mozprofileOoFiQj\\search.json.mozlz4", (void 0)))
+1628177551550	Marionette	INFO	Listening on port 57025
+1628177551629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+JavaScript error: http://127.0.0.1:8000/static/network/customizing.js, line 11: TypeError: document.querySelector(...) is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628181962127	Marionette	INFO	Stopped listening on port 57025
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

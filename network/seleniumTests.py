@@ -183,6 +183,7 @@ class MySeleniumTests(LiveServerTestCase):
         self.assertFalse(follow_button.is_enabled());
         
     def test_following(self):
+        """ test to make sure the follow-button is disabled if I try to follow myself """
         self.login(); 
         self.go_to_following();
         
@@ -197,7 +198,34 @@ class MySeleniumTests(LiveServerTestCase):
             self.assertGreaterEqual(len(self.driver.find_elements(By.CLASS_NAME, "posts")), 5);
         
         
+    def test_edit_button(self):
+        """ tests if edit-button exists, and that it does not exist for other user """    
+        self.login(); 
+        self.go_to_all_posts();
         
+        other_user_post = self.driver.find_element_by_xpath("//div[contains(@class, 'posts') and contains(@class, 'Gretel')]");
+        print("id of other user: " + other_user_post.get_attribute("id"));
+        other_user_id = other_user_post.get_attribute("id");
+        
+        try:
+            
+            user_un_specific_edit = self.driver.find_element_by_xpath(f"//div[@id={other_user_id}]/div[2]/button[1]");
+            
+        except NoSuchElementException:
+            
+            user_un_specific_edit = None;
+        finally:                
+            time.sleep(3);
+            edit_button = self.driver.find_element(By.CLASS_NAME, "edit");
+            edit_button.click();
+            
+            try:
+                textarea =  self.driver.find_element(By.TAG_NAME, "textarea");
+            except NoSuchElementException:
+                textarea = None;
+            
+            self.assertIsNone(user_un_specific_edit);
+            self.assertIsNotNone(textarea);
         
         
         

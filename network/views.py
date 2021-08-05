@@ -103,11 +103,21 @@ def posts(request):
         print(posts_of_users_followed)
         return returnPosts(request, posts_of_users_followed)
 
-    if request.method == "GET":
+    elif request.method == "GET":
         posts = Post.objects.all();
         
         
         return returnPosts(request, posts);
+    
+    elif request.method == "PUT":
+        new_post_data = json.loads(request.body);
+        print("new post id: " + str(new_post_data["post_id"]));
+        print("new post content is: " + new_post_data["post_content"])
+        
+        updated_post = Post.objects.get(pk = new_post_data["post_id"]);
+        updated_post.content = new_post_data["post_content"];
+        updated_post.save()
+        return JsonResponse({ "test" : "test" })
         
     
 @csrf_exempt

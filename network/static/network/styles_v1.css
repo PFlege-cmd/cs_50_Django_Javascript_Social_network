@@ -1,0 +1,43 @@
+textarea {
+    
+	border-color: red;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 75%;
+	font-family : "Times New Roman";
+}
+@keyframes appears{	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes opens{	
+	from {height: 0%; opacity: 0;}
+	to {height: 75%; opacity: 1;}
+}
+
+.post_content {
+	height: 100%;
+}
+
+.text_input{
+	padding-left: 10px;
+	padding-top: 10px;
+	height: 50%;
+	
+	animation-name: opens;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;	
+	
+}
+
+div {
+	padding-top: 5px;
+	padding-left: 5px;
+	border-collapse: collapse;
+	font-family : "Times New Roman";
+	animation-name: appears;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;	
+	
+}
